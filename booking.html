@@ -14,7 +14,9 @@
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">  
+    <link
+        href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
 
     <!-- Icon Font Stylesheet -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
@@ -24,18 +26,31 @@
     <link href="lib/animate/animate.min.css" rel="stylesheet">
     <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
     <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+    <style>
+        .fade {
+            opacity: 1;
+            transition: opacity 0.5s ease;
+        }
+
+        .fade-out {
+            opacity: 0;
+            pointer-events: none;
+        }
+    </style>
 </head>
 
 <body>
     <div class="container-xxl bg-white p-0">
         <!-- Spinner Start -->
-        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div id="spinner"
+            class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
             <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
                 <span class="sr-only">Loading...</span>
             </div>
@@ -46,7 +61,8 @@
         <div class="container-fluid bg-dark px-0">
             <div class="row gx-0">
                 <div class="col-lg-3 bg-dark d-none d-lg-block">
-                    <a href="index.html" class="navbar-brand w-100 h-100 m-0 p-0 d-flex align-items-center justify-content-center">
+                    <a href="index.html"
+                        class="navbar-brand w-100 h-100 m-0 p-0 d-flex align-items-center justify-content-center">
                         <h1 class="m-0 text-primary text-uppercase">Hotelier</h1>
                     </a>
                 </div>
@@ -59,13 +75,16 @@
                             </div>
                             <div class="h-100 d-inline-flex align-items-center py-2">
                                 <i class="fa fa-phone-alt text-primary me-2"></i>
-                                <p class="mb-0">+0985 895 1990</p>
+                                <p class="mb-0">+012 345 6789</p>
                             </div>
                         </div>
                         <div class="col-lg-5 px-5 text-end">
                             <div class="d-inline-flex align-items-center py-2">
-                                <a class="me-3" href="https://www.facebook.com/VillaRosalResort"><i class="fab fa-facebook-f"></i></a>
-                                <a class="me-3" href="https://www.instagram.com/explore/locations/106544745670143/villa-rosal-private-resort/"><i class="fab fa-instagram"></i></a>
+                                <a class="me-3" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="me-3" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="me-3" href=""><i class="fab fa-linkedin-in"></i></a>
+                                <a class="me-3" href=""><i class="fab fa-instagram"></i></a>
+                                <a class="" href=""><i class="fab fa-youtube"></i></a>
                             </div>
                         </div>
                     </div>
@@ -73,7 +92,8 @@
                         <a href="index.html" class="navbar-brand d-block d-lg-none">
                             <h1 class="m-0 text-primary text-uppercase">Hotelier</h1>
                         </a>
-                        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                        <button type="button" class="navbar-toggler" data-bs-toggle="collapse"
+                            data-bs-target="#navbarCollapse">
                             <span class="navbar-toggler-icon"></span>
                         </button>
                         <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
@@ -83,7 +103,8 @@
                                 <a href="service.html" class="nav-item nav-link">Services</a>
                                 <a href="room.html" class="nav-item nav-link">Rooms</a>
                                 <div class="nav-item dropdown">
-                                    <a href="#" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown">Pages</a>
+                                    <a href="#" class="nav-link dropdown-toggle active"
+                                        data-bs-toggle="dropdown">Pages</a>
                                     <div class="dropdown-menu rounded-0 m-0">
                                         <a href="booking.html" class="dropdown-item active">Booking</a>
                                         <a href="team.html" class="dropdown-item">Our Team</a>
@@ -92,6 +113,9 @@
                                 </div>
                                 <a href="contact.html" class="nav-item nav-link">Contact</a>
                             </div>
+                            <a href="https://htmlcodex.com/hotel-html-template-pro"
+                                class="btn btn-primary rounded-0 py-4 px-md-5 d-none d-lg-block">Premium Version<i
+                                    class="fa fa-arrow-right ms-3"></i></a>
                         </div>
                     </nav>
                 </div>
@@ -118,6 +142,7 @@
         <!-- Page Header End -->
 
 
+
         <!-- Booking Start -->
         <div class="container-xxl py-5">
             <div class="container">
@@ -128,86 +153,170 @@
                 <div class="row g-5">
                     <div class="col-lg-6">
                         <div class="row g-3">
-                            <div class="col-6 text-end">
-                                <img class="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.1s" src="img/about-1.jpg" style="margin-top: 25%;">
+                            <div id="default-room-gallery" class="wow fadeInUp" data-wow-delay="0.1s">
+                                <div class="row g-3">
+                                    <div class="col-6 text-end">
+                                        <img class="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.1s"
+                                            src="img/about-1.jpg" style="margin-top: 25%;">
+                                    </div>
+                                    <div class="col-6 text-start">
+                                        <img class="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.3s"
+                                            src="img/about-2.jpg">
+                                    </div>
+                                    <div class="col-6 text-end">
+                                        <img class="img-fluid rounded w-50 wow zoomIn" data-wow-delay="0.5s"
+                                            src="img/about-3.jpg">
+                                    </div>
+                                    <div class="col-6 text-start">
+                                        <img class="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.7s"
+                                            src="img/about-4.jpg">
+                                    </div>
+                                </div>
                             </div>
-                            <div class="col-6 text-start">
-                                <img class="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.3s" src="img/about-2.jpg">
-                            </div>
-                            <div class="col-6 text-end">
-                                <img class="img-fluid rounded w-50 wow zoomIn" data-wow-delay="0.5s" src="img/about-3.jpg">
-                            </div>
-                            <div class="col-6 text-start">
-                                <img class="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.7s" src="img/about-4.jpg">
+
+                            <div id="selected-room-preview" class="mt-4">
+                                <!-- show the image dropdown of the room -->
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-6">
                         <div class="wow fadeInUp" data-wow-delay="0.2s">
-                            <form>
+                            <form action="php/submit_booking.php" method="POST">
                                 <div class="row g-3">
+                                    <!-- Full Name -->
                                     <div class="col-md-6">
-                                        <div class="form-floating">
-                                            <input type="text" class="form-control" id="name" placeholder="Your Name">
-                                            <label for="name">Your Name</label>
+                                        <div class="form-floating position-relative">
+                                            <input type="text" class="form-control" id="name" name="full_name"
+                                                placeholder="Your Name" pattern="^[a-zA-Z\s]{2,}$" required>
+                                            <label for="name">🧍 Full Name</label>
+                                            <div id="name-feedback" class="invalid-feedback d-none">
+                                                Please enter a valid name (letters only, at least 6 characters).
+                                            </div>
                                         </div>
                                     </div>
+
+                                    <!-- Contact Number -->
                                     <div class="col-md-6">
-                                        <div class="form-floating">
-                                            <input type="email" class="form-control" id="email" placeholder="Your Email">
-                                            <label for="email">Your Email</label>
+                                        <div class="form-floating position-relative">
+                                            <input type="tel" class="form-control" id="contact" name="contact_number"
+                                                placeholder="+639XXXXXXXXX" required inputmode="numeric">
+                                            <label for="contact">📞 Contact Number</label>
+                                            <div id="contact-feedback" class="invalid-feedback d-none">
+                                                Enter a valid PH mobile number (09XXXXXXXXX or +639XXXXXXXXX).
+                                            </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-6">
-                                        <div class="form-floating date" id="date3" data-target-input="nearest">
-                                            <input type="text" class="form-control datetimepicker-input" id="checkin" placeholder="Check In" data-target="#date3" data-toggle="datetimepicker" />
-                                            <label for="checkin">Check In</label>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="form-floating date" id="date4" data-target-input="nearest">
-                                            <input type="text" class="form-control datetimepicker-input" id="checkout" placeholder="Check Out" data-target="#date4" data-toggle="datetimepicker" />
-                                            <label for="checkout">Check Out</label>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="form-floating">
-                                            <select class="form-select" id="select1">
-                                              <option value="1">Adult 1</option>
-                                              <option value="2">Adult 2</option>
-                                              <option value="3">Adult 3</option>
-                                            </select>
-                                            <label for="select1">Select Adult</label>
-                                          </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="form-floating">
-                                            <select class="form-select" id="select2">
-                                              <option value="1">Child 1</option>
-                                              <option value="2">Child 2</option>
-                                              <option value="3">Child 3</option>
-                                            </select>
-                                            <label for="select2">Select Child</label>
-                                          </div>
-                                    </div>
+
+                                    <!-- Email -->
                                     <div class="col-12">
-                                        <div class="form-floating">
-                                            <select class="form-select" id="select3">
-                                              <option value="1">Room 1</option>
-                                              <option value="2">Room 2</option>
-                                              <option value="3">Room 3</option>
-                                            </select>
-                                            <label for="select3">Select A Room</label>
-                                          </div>
-                                    </div>
-                                    <div class="col-12">
-                                        <div class="form-floating">
-                                            <textarea class="form-control" placeholder="Special Request" id="message" style="height: 100px"></textarea>
-                                            <label for="message">Special Request</label>
+                                        <div class="form-floating position-relative">
+                                            <input type="email" class="form-control" id="email" name="email"
+                                                placeholder="Your Email" required>
+                                            <label for="email">📧 Email Address</label>
+                                            <div id="email-feedback" class="invalid-feedback d-none">
+                                                Please enter a valid email address.
+                                            </div>
                                         </div>
                                     </div>
+
+                                    <!-- Check-in Date -->
+                                    <div class="col-md-6">
+                                        <div class="form-floating">
+                                            <input type="date" class="form-control" name="check_in" id="checkin"
+                                                required>
+                                            <label for="checkin">Check-In Date</label>
+                                        </div>
+                                    </div>
+
+                                    <!-- Check-in Time (Dropdown) -->
+                                    <div class="col-md-6">
+                                        <div class="form-floating">
+                                            <select class="form-select" name="checkin_time" id="checkin_time" required>
+                                                <option value="">Select Check-In Time</option>
+                                                <!-- Options inserted by JS -->
+                                            </select>
+                                            <label for="checkin_time">Check-In Time</label>
+                                        </div>
+                                    </div>
+
+                                    <!-- Check-out Date -->
+                                    <div class="col-md-6">
+                                        <div class="form-floating">
+                                            <input type="date" class="form-control" name="check_out" id="checkout"
+                                                required>
+                                            <label for="checkout">Check-Out Date</label>
+                                        </div>
+                                    </div>
+
+                                    <!-- Check-out Time (Dropdown) -->
+                                    <div class="col-md-6">
+                                        <div class="form-floating">
+                                            <select class="form-select" name="checkout_time" id="checkout_time"
+                                                required>
+                                                <option value="">Select Check-Out Time</option>
+                                                <!-- Options inserted by JS -->
+                                            </select>
+                                            <label for="checkout_time">Check-Out Time</label>
+                                        </div>
+                                    </div>
+
+                                    <!-- Adult Guests -->
+                                    <div class="col-md-6">
+                                        <div class="form-floating">
+                                            <select class="form-select" name="adults" id="adults-select"
+                                                onchange="fetchRoomsByGuests()" required>
+                                                <option value="" disabled selected>Select Adults</option>
+                                                <option value="1">1 Adult</option>
+                                                <option value="2">2 Adults</option>
+                                                <option value="3">3 Adults</option>
+                                                <option value="4">4 Adults</option>
+                                            </select>
+                                            <label for="adults-select">How many Adult/s</label>
+                                        </div>
+                                    </div>
+
+                                    <!-- Children Guests -->
+                                    <div class="col-md-6">
+                                        <div class="form-floating">
+                                            <select class="form-select" name="children" id="children-select"
+                                                onchange="fetchRoomsByGuests()" required>
+                                                <option value="" disabled selected>Select Children</option>
+                                                <option value="0">0 Child</option>
+                                                <option value="1">1 Child</option>
+                                                <option value="2">2 Children</option>
+                                                <option value="3">3 Children</option>
+                                            </select>
+                                            <label for="children-select">How many Child/ren</label>
+                                        </div>
+                                    </div>
+
+
+                                    <!-- Room Selection -->
                                     <div class="col-12">
-                                        <button class="btn btn-primary w-100 py-3" type="submit">Book Now</button>
+                                        <div class="form-floating position-relative">
+                                            <select id="select3" class="form-select" name="room_id" disabled required
+                                                data-bs-toggle="tooltip" data-bs-placement="top"
+                                                title="Only the available rooms are displayed here.">
+                                                <option value="">Select A Room</option>
+                                            </select>
+                                            <label for="select3">Select Available Room</label>
+                                        </div>
+                                        <div id="room-error-message"></div>
+                                    </div>
+
+
+                                    <!-- reCAPTCHA box (hidden by default) -->
+                                    <div style="display: none;" id="recaptcha-box">
+                                        <div class="g-recaptcha" data-sitekey="6Le4eHIrAAAAAMBCr8Xz_MXrkUZQFPt9aUZdEjGW"
+                                            data-callback="onRecaptchaSuccess"></div>
+                                    </div>
+
+                                    <!-- Submit Buttons -->
+                                    <div class="col-12">
+                                        <button type="button" class="btn btn-primary w-100 py-3"
+                                            onclick="confirmAndShowRecaptcha()">Book Now</button>
+
+                                        <button type="submit" id="realSubmit" style="display: none;"></button>
                                     </div>
                                 </div>
                             </form>
@@ -218,6 +327,46 @@
         </div>
         <!-- Booking End -->
 
+        <!-- Booking Confirmation Modal -->
+        <div class="modal fade" id="confirmBookingModal" tabindex="-1" aria-labelledby="confirmBookingModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="confirmBookingModalLabel">📝 Confirm Your Booking</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        Please review all your booking details. Proceeding will require completing the reCAPTCHA.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Review Again</button>
+                        <button type="button" class="btn btn-primary" onclick="showRecaptchaBox()">Yes, Proceed</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Booking Success Modal -->
+        <div class="modal fade" id="bookingSuccessModal" tabindex="-1" aria-labelledby="bookingSuccessModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header bg-success text-white">
+                        <h5 class="modal-title" id="bookingSuccessModalLabel">✅ Booking Submitted!</h5>
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        Thank you for booking! Please check your email to confirm your reservation.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-success" data-bs-dismiss="modal">Okay</button>
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <!-- Newsletter Start -->
         <div class="container newsletter mt-5 wow fadeIn" data-wow-delay="0.1s">
@@ -225,10 +374,13 @@
                 <div class="col-lg-10 border rounded p-1">
                     <div class="border rounded text-center p-1">
                         <div class="bg-white rounded text-center p-5">
-                            <h4 class="mb-4">Subscribe Our <span class="text-primary text-uppercase">Newsletter</span></h4>
+                            <h4 class="mb-4">Subscribe Our <span class="text-primary text-uppercase">Newsletter</span>
+                            </h4>
                             <div class="position-relative mx-auto" style="max-width: 400px;">
-                                <input class="form-control w-100 py-3 ps-4 pe-5" type="text" placeholder="Enter your email">
-                                <button type="button" class="btn btn-primary py-2 px-3 position-absolute top-0 end-0 mt-2 me-2">Submit</button>
+                                <input class="form-control w-100 py-3 ps-4 pe-5" type="text"
+                                    placeholder="Enter your email">
+                                <button type="button"
+                                    class="btn btn-primary py-2 px-3 position-absolute top-0 end-0 mt-2 me-2">Submit</button>
                             </div>
                         </div>
                     </div>
@@ -236,7 +388,7 @@
             </div>
         </div>
         <!-- Newsletter Start -->
-        
+
 
         <!-- Footer Start -->
         <div class="container-fluid bg-dark text-light footer wow fadeIn" data-wow-delay="0.1s">
@@ -244,7 +396,15 @@
                 <div class="row g-5">
                     <div class="col-md-6 col-lg-4">
                         <div class="bg-primary rounded p-4">
-                            <a href="index.html"><h1 class="text-white text-uppercase mb-3">Hotelier</h1></a>
+                            <a href="index.html">
+                                <h1 class="text-white text-uppercase mb-3">Hotelier</h1>
+                            </a>
+                            <p class="text-white mb-0">
+                                Download <a class="text-dark fw-medium"
+                                    href="https://htmlcodex.com/hotel-html-template-pro">Hotelier – Premium Version</a>,
+                                build a professional website for your hotel business and grab the attention of new
+                                visitors upon your site’s launch.
+                            </p>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-3">
@@ -254,7 +414,7 @@
                         <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@example.com</p>
                         <div class="d-flex pt-2">
                             <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-outline-light btn-social" href="https://www.facebook.com/VillaRosalResort"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
                             <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
                             <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
                         </div>
@@ -285,10 +445,10 @@
                 <div class="copyright">
                     <div class="row">
                         <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                            &copy; <a class="border-bottom" href="#">Your Site Name</a>, All Right Reserved. 
-							
-							<!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
-							Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a>
+                            &copy; <a class="border-bottom" href="#">Your Site Name</a>, All Right Reserved.
+
+                            <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                            Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a>
                         </div>
                         <div class="col-md-6 text-center text-md-end">
                             <div class="footer-menu">
@@ -311,7 +471,7 @@
 
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="lib/wow/wow.min.js"></script>
     <script src="lib/easing/easing.min.js"></script>
     <script src="lib/waypoints/waypoints.min.js"></script>
@@ -320,9 +480,40 @@
     <script src="lib/tempusdominus/js/moment.min.js"></script>
     <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
     <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+    <script src="js/select_room.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <script src="https://unpkg.com/imask"></script>
+    <script src="js/validate_form.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
+            tooltipTriggerList.forEach(function (tooltipTriggerEl) {
+                new bootstrap.Tooltip(tooltipTriggerEl);
+            });
+        });
+
+        window.addEventListener('DOMContentLoaded', () => {
+            const params = new URLSearchParams(window.location.search);
+            if (params.get('booking_success') === '1') {
+                const successModal = new bootstrap.Modal(document.getElementById('bookingSuccessModal'));
+                successModal.show();
+
+                // 🔥 Remove the query param from the URL without reloading
+                window.history.replaceState({}, document.title, window.location.pathname);
+            }
+        });
+        document.addEventListener("DOMContentLoaded", function () {
+            new WOW().init();
+        });
+
+    </script>
+
+
 </body>
 
 </html>
